@@ -1,1 +1,33 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/7i_7W-n2)
+
+
+## 📋 Description
+Blast through asteroid fields in 'CapsuleCorp' where you pilot a spaceship tasked with safeguarding the solar system. With each asteroid destroyed, unlock fascinating facts about the universe, from the planets to the Milky Way.  
+
+
+## 🖥 Team	Members
+> 1. **PSIvanov22** - **Scrum**	
+   - ***GitHub profile***: [***PSIvanov22***](https://github.com/PSIvanov22)	
+ 
+> 2. **VBTodorov22** - **Developer Back-End**	
+   - ***GitHub profile***: [***VBTodorov22***](https://github.com/VBTodorov22)	
+
+> 3. **ATKabakov22** - **Developer Back-End**	
+   - ***GitHub profile***: [***KARusev22***](https://github.com/KARusev22)
+
+> 4. **RVParvanov22** - **Developer Back-End**	
+   - ***GitHub profile***: [***NKYanakiev22***](https://github.com/NKYanakiev22)
+
+
+## 🔨 Tools
+
+
+## 🚀 Languages 
+
+## 📚 Libraries
+  
+
+
+
+
+
+<h1>Enjoy the project!</h1>
