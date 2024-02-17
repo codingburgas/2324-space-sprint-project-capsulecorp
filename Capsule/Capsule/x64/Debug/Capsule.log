@@ -1,0 +1,17 @@
+﻿  Capsule.cpp
+C:\Users\Админ\source\repos\2324-space-sprint-project-capsulecorp\Capsule\Capsule\Capsule.cpp(51,39): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+C:\Users\Админ\source\repos\2324-space-sprint-project-capsulecorp\Capsule\Capsule\Capsule.cpp(51,39): warning C4244:         with
+C:\Users\Админ\source\repos\2324-space-sprint-project-capsulecorp\Capsule\Capsule\Capsule.cpp(51,39): warning C4244:         [
+C:\Users\Админ\source\repos\2324-space-sprint-project-capsulecorp\Capsule\Capsule\Capsule.cpp(51,39): warning C4244:             T=unsigned int
+C:\Users\Админ\source\repos\2324-space-sprint-project-capsulecorp\Capsule\Capsule\Capsule.cpp(51,39): warning C4244:         ]
+C:\Users\Админ\source\repos\2324-space-sprint-project-capsulecorp\Capsule\Capsule\Capsule.cpp(94,47): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+C:\Users\Админ\source\repos\2324-space-sprint-project-capsulecorp\Capsule\Capsule\Capsule.cpp(94,47): warning C4244:         with
+C:\Users\Админ\source\repos\2324-space-sprint-project-capsulecorp\Capsule\Capsule\Capsule.cpp(94,47): warning C4244:         [
+C:\Users\Админ\source\repos\2324-space-sprint-project-capsulecorp\Capsule\Capsule\Capsule.cpp(94,47): warning C4244:             T=unsigned int
+C:\Users\Админ\source\repos\2324-space-sprint-project-capsulecorp\Capsule\Capsule\Capsule.cpp(94,47): warning C4244:         ]
+C:\Users\Админ\source\repos\2324-space-sprint-project-capsulecorp\Capsule\Capsule\Capsule.cpp(141,51): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+C:\Users\Админ\source\repos\2324-space-sprint-project-capsulecorp\Capsule\Capsule\Capsule.cpp(141,51): warning C4244:         with
+C:\Users\Админ\source\repos\2324-space-sprint-project-capsulecorp\Capsule\Capsule\Capsule.cpp(141,51): warning C4244:         [
+C:\Users\Админ\source\repos\2324-space-sprint-project-capsulecorp\Capsule\Capsule\Capsule.cpp(141,51): warning C4244:             T=unsigned int
+C:\Users\Админ\source\repos\2324-space-sprint-project-capsulecorp\Capsule\Capsule\Capsule.cpp(141,51): warning C4244:         ]
+  Capsule.vcxproj -> C:\Users\Админ\source\repos\2324-space-sprint-project-capsulecorp\Capsule\x64\Debug\Capsule.exe
