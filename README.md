@@ -1,5 +1,3 @@
-
-
 ## 📋 Description
 Blast through asteroid fields in 'CapsuleCorp' where you pilot a spaceship tasked with safeguarding the solar system. With each asteroid destroyed, unlock fascinating facts about the universe, from the planets to the Milky Way.  
 
@@ -11,10 +9,10 @@ Blast through asteroid fields in 'CapsuleCorp' where you pilot a spaceship taske
 > 2. **VBTodorov22** - **Developer Back-End**	
    - ***GitHub profile***: [***VBTodorov22***](https://github.com/VBTodorov22)	
 
-> 3. **ATKabakov22** - **Developer Back-End**	
+> 3. **KARusev22** - **Developer Back-End**	
    - ***GitHub profile***: [***KARusev22***](https://github.com/KARusev22)
 
-> 4. **RVParvanov22** - **Developer Back-End**	
+> 4. **NKYanakiev22** - **Developer Back-End**	
    - ***GitHub profile***: [***NKYanakiev22***](https://github.com/NKYanakiev22)
 
 
@@ -25,6 +23,9 @@ Blast through asteroid fields in 'CapsuleCorp' where you pilot a spaceship taske
 
 ## 📚 Libraries
   
+
+
+
 
 
 
