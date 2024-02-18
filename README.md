@@ -1,7 +1,5 @@
 ![logo](https://cdn.discordapp.com/attachments/1155462976401309717/1208838763036409907/image.png?ex=65e4bdd4&is=65d248d4&hm=5a9fcededf6ec874ccfe37c20a7a95143312c8e63cab269eee45c3b2f1dd3a04&)
 
-## 📋 Description
-Blast through asteroid fields in 'CapsuleCorp' where you pilot a spaceship tasked with safeguarding the solar system. With each asteroid destroyed, unlock fascinating facts about the universe, from the planets to the Milky Way.  
 
 
 ## 🖥 Team	Members
@@ -17,6 +15,8 @@ Blast through asteroid fields in 'CapsuleCorp' where you pilot a spaceship taske
 > 4. **NKYanakiev22** - **Developer Back-End**	
    - ***GitHub profile***: [***NKYanakiev22***](https://github.com/NKYanakiev22)
 
+## 📋 Description
+Blast through asteroid fields in 'CapsuleCorp' where you pilot a spaceship tasked with safeguarding the solar system. With each asteroid destroyed, unlock fascinating facts about the universe, from the planets to the Milky Way.  
 
 ## 🔨 Tools
 <div align="left">
