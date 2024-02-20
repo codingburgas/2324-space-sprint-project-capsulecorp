@@ -27,10 +27,14 @@ Blast through asteroid fields in 'CapsuleCorp' where you pilot a spaceship taske
    
    <img src="https://online.iotap.in/content/images/thumbs/0000694_visual-studio-professional-2022_550.jpeg" height="40" alt="jest logo"  />
 
+ <img src="https://creativecenter.bg/public/uploads//products/361/a28436f6b92cac84fe06ebd91ba7cd3b.jpg" height="40" alt="jest logo"  />
+
+  <img src="https://static-00.iconduck.com/assets.00/youtube-icon-512x511-qrlabbtf.png" height="40" alt="jest logo"  />
+ 
 ## 🚀 Languages 
 
 <div align="left">
-
+ <img src="https://cdn.iconscout.com/icon/free/png-256/free-cmake-3629279-3031863.png" height="40" alt="jest logo"  />
   <img src="https://media.licdn.com/dms/image/D4E12AQFZ22tCQSGwDw/article-cover_image-shrink_600_2000/0/1687615910475?e=2147483647&v=beta&t=e0Dz4ia72MRYikHW_0Pc0JoAKJ3sFH3Vd5VO1RyAFPs" height="40" alt="jest logo"  />
 </div>
 
@@ -38,10 +42,11 @@ Blast through asteroid fields in 'CapsuleCorp' where you pilot a spaceship taske
   
 <div align="left">
 
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/SFML2.svg/1200px-SFML2.svg.png" height="40" alt="jest logo"  />
+  <img src="https://www.sfml-dev.org/download/goodies/sfml-icon-small.png" height="40" alt="jest logo"  />
 </div>
+<br>
 
-
+<h1>🎮 Try The Game Yourself ! 🎮</h1>  
 
 
 
