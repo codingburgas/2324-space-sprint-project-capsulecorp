@@ -3,6 +3,7 @@
 #include <ctime>
 #include <iostream>
 #include <vector>
+#include <cmath>
 
 using namespace sf;
 
@@ -29,26 +30,29 @@ int main()
 
     RenderWindow window(VideoMode(800, 700), "Save The Earth");
 
-    // Create player spaceship
-    RectangleShape player(Vector2f(50, 50)); // Rectangle shape
+    // Create player spaceship (triangle)
+    ConvexShape player(3); // Triangle shape
+    player.setPoint(0, Vector2f(0, -25));
+    player.setPoint(1, Vector2f(-25, 25));
+    player.setPoint(2, Vector2f(25, 25));
     player.setFillColor(Color::Green);
     player.setPosition(375.0f, 550.0f);
 
     // Player speed
-    float playerSpeed = 0.04f; // Adjusted player speed
+    float playerSpeed = 0.06f; // Adjusted player speed
 
-    // Enemies
+    // Enemies (circles)
     const int numEnemies = 10;
-    RectangleShape enemies[numEnemies];
+    CircleShape enemies[numEnemies];
     float enemySpeed = 0.03f; // Initial enemy speed
     float speedIncreaseRate = 0.0009f; // Rate of speed increase per frame
     int enemiesDestroyed = 0; // Track the number of enemies destroyed
 
     for (int i = 0; i < numEnemies; ++i)
     {
-        enemies[i] = RectangleShape(Vector2f(30.0f, 30.0f));
+        enemies[i] = CircleShape(25.0f); // Circle with radius 25
         enemies[i].setFillColor(Color::Red);
-        enemies[i].setPosition(rand() % (window.getSize().x - 30), -30);
+        enemies[i].setPosition(rand() % (window.getSize().x - 50), -50); // Set initial position above the window
     }
 
     // Bullets
@@ -69,20 +73,24 @@ int main()
             // Shoot bullets
             if (event.type == Event::KeyPressed && event.key.code == Keyboard::Space) {
                 Bullet bullet(bulletSpeed);
-                bullet.shape.setPosition(player.getPosition().x + player.getSize().x / 2 - bullet.shape.getSize().x / 2,
+                bullet.shape.setPosition(player.getPosition().x + player.getGlobalBounds().width / 6,
                     player.getPosition().y - bullet.shape.getSize().y);
                 bullets.push_back(bullet);
             }
         }
 
         // Player movement
-        if (Keyboard::isKeyPressed(Keyboard::Left) && player.getPosition().x > 0)
-        {
+        if (Keyboard::isKeyPressed(Keyboard::Left) && player.getPosition().x > 0) {
             player.move(-playerSpeed, 0);
         }
-        if (Keyboard::isKeyPressed(Keyboard::Right) && player.getPosition().x + player.getSize().x < window.getSize().x)
-        {
+        if (Keyboard::isKeyPressed(Keyboard::Right) && player.getPosition().x + player.getGlobalBounds().width < window.getSize().x) {
             player.move(playerSpeed, 0);
+        }
+        if (Keyboard::isKeyPressed(Keyboard::Up) && player.getPosition().y > 0) {
+            player.move(0, -playerSpeed);
+        }
+        if (Keyboard::isKeyPressed(Keyboard::Down) && player.getPosition().y + player.getGlobalBounds().height < window.getSize().y) {
+            player.move(0, playerSpeed);
         }
 
         // Move enemies
@@ -91,7 +99,7 @@ int main()
             enemies[i].move(0, enemySpeed);
             if (enemies[i].getPosition().y > window.getSize().y)
             {
-                enemies[i].setPosition(rand() % (window.getSize().x - 30), -30);
+                enemies[i].setPosition(rand() % (window.getSize().x - 50), -50);
             }
         }
 
@@ -138,7 +146,7 @@ int main()
             for (size_t j = 0; j < numEnemies; ++j) {
                 if (bullets[i].shape.getGlobalBounds().intersects(enemies[j].getGlobalBounds())) {
                     // Remove enemy and bullet
-                    enemies[j].setPosition(rand() % (window.getSize().x - 30), -30);
+                    enemies[j].setPosition(rand() % (window.getSize().x - 50), -50);
                     bullets.erase(bullets.begin() + i);
                     enemiesDestroyed++;
 
@@ -158,6 +166,7 @@ int main()
                     else if (enemiesDestroyed == 25) {
                         std::cout << "Fact 5: Mars has the largest volcano(Olympus Mons) and deepest canyon(Valles Marineris) in the solar system." << std::endl;
                     }
+
                     else if (enemiesDestroyed == 30) {
                         std::cout << "Congrats you won the GAME !!!" << std::endl;
                         window.close();
@@ -169,11 +178,13 @@ int main()
 
         // Drawing
         window.clear(Color::Black);
+        // Draw player
         window.draw(player);
-        for (int i = 0; i < numEnemies; ++i)
-        {
+        // Draw enemies
+        for (int i = 0; i < numEnemies; ++i) {
             window.draw(enemies[i]);
         }
+        // Draw bullets
         for (auto& bullet : bullets) {
             window.draw(bullet.shape);
         }
